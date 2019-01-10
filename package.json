@@ -1,0 +1,19 @@
+{
+  "name": "nofluffjobs-cli",
+  "version": "1.0.0",
+  "description": "CLI for nofluffjobs.com website",
+  "license": "ISC",
+  "repository": "https://github.com/infoshareacademy/nofluffjobs-cli",
+  "preferGlobal": true,
+  "engines": {
+    "node": "8 || 9 || 10"
+  },
+  "bin": {
+    "nofluffjobs": "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "node-fetch": "^2.3.0"
+  }
+}
